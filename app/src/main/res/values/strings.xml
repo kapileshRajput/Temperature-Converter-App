@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">The Temp Converter</string>
+    <string name="application_lable">Enter desired temperature to convert</string>
+    <string name="temp_edit_text_hint">temp</string>
+    <string name="celsius_button_lable">To Celsius</string>
+    <string name="fahrenheit_button_lable">To Fahrenheit</string>
+    <string name="thermometer_image_description">thermometer_image</string>
+    <string name="autofill_hint_temp_edit_text">Enter the temperature value to convert.</string>
+</resources>
