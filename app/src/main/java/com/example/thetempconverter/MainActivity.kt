@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
             val enteredValue = tempEditText.text.toString().toDouble()
             Toast.makeText(
                 this,
-                "$enteredValue Fahrenheit is ${(enteredValue - 32) / 1.8} Celsius.",
+                "$enteredValue Fahrenheit is ${String.format("%.2f",(enteredValue - 32) / 1.8)} Celsius.",
                 Toast.LENGTH_LONG
             ).show()
         }
@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
             val enteredValue = tempEditText.text.toString().toDouble()
             Toast.makeText(
                 this,
-                "$enteredValue Celsius is  ${(enteredValue * 1.8) + 32} Fahrenheit.",
+                "$enteredValue Celsius is  ${String.format("%.2f",(enteredValue * 1.8) + 32)} Fahrenheit.",
                 Toast.LENGTH_LONG
             ).show()
         }
